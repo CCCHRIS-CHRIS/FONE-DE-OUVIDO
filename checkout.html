@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Finalização da Compra</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <!-- Adicione esta seção dentro do <body>, acima do <div class="container"> -->
+  <div class="produto-container">
+    <img src="soltune.jpg" alt="Imagem do Produto" class="produto-imagem">
+    <div class="produto-info">
+      <h2>Fone De Ouvido Bluetooth Sem Fio com estojo de carregamento - Soltune</h2>
+      <p class="cor-produto">Cor: Preta</p>
+    </div>
+  </div>
+  <div class="container">
+    <h1>Finalização da Compra</h1>
+    <form>
+      <section class="informacoes-pessoais">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cep" name="cep" required>
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" required>
+      </section>
+
+      <section class="cupom-desconto">
+        <label for="cupom">Cupom de Desconto:</label>
+        <input type="text" id="cupom" name="cupom">
+        <button type="button">Aplicar</button>
+      </section>
+
+      <input type="submit" value="Finalizar Compra">
+    </form>
+
+    <!-- Adicionando a frase "Total: R$89,90" -->
+    <div class="total">
+      Total: R$89,90
+    </div>
+
+    <!-- Adicionando o texto de direitos autorais -->
+    <div class="direitos-autorais">
+      © 2024 Soltune. Todos os direitos reservados.
+    </div>
+  </div>
+</body>
+</html>
