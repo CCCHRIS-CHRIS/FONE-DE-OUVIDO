@@ -1,0 +1,158 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    color: #333;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    margin-top: 10px;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #50b3a2;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #429388;
+  }
+  section.cupom-desconto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  button {
+    padding: 10px;
+    background-color: #e8491d;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #d4380d;
+  }
+  
+  .produto-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .produto-imagem {
+    max-width: 100px; /* Ajuste conforme necessário */
+    height: auto;
+  }
+  .produto-info {
+    text-align: left;
+  }
+  .produto-preco, .produto-parcelamento {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .descricao-produto {
+    flex-grow: 1;
+    padding-left: 20px; /* Ajuste conforme necessário */
+  }
+  .descricao-produto h2 {
+    font-size: 1.2em; /* Ajuste conforme necessário */
+    margin: 0 0 10px 0;
+  }
+  .cor-produto {
+    font-size: 0.9em; /* Ajuste conforme necessário */
+    color: #555;
+  }
+  
+  .produto-container {
+    display: flex;
+    align-items: center;
+    justify-content: start; /* Alinha os itens ao início do container */
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .produto-imagem {
+    max-width: 100px; /* Ajuste conforme necessário */
+    height: auto;
+    margin-right: 20px; /* Adiciona espaço entre a imagem e os detalhes do produto */
+  }
+  .produto-detalhes {
+    text-align: left;
+  }
+  .produto-detalhes h2, .produto-detalhes p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  /* Seu estilo CSS existente aqui */
+
+.total {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+/* Seu estilo CSS existente aqui */
+
+.produto-imagem {
+  max-width: 100px; /* Ajuste conforme necessário */
+  height: auto;
+  margin-right: 20px; /* Adiciona espaço entre a imagem e os detalhes do produto */
+  border-radius: 8px; /* Deixa a imagem levemente arredondada */
+  transition: transform 0.3s ease; /* Adiciona transição suave ao efeito de zoom */
+}
+
+.produto-imagem:hover {
+  transform: scale(1.1); /* Aplica um efeito de zoom ao passar o cursor do mouse sobre a imagem */
+}
+
+/* Estilo para a frase "Total: R$89,90" */
+.total {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Seu estilo CSS existente aqui */
+
+/* Estilo para a frase "Total: R$89,90" */
+.total {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Estilo para o texto de direitos autorais */
+.direitos-autorais {
+  position: absolute;
+  bottom: 3px;
+  left: 4px;
+  font-size: 0.8em;
+  color: #777;
+}
